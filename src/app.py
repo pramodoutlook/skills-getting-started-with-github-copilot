@@ -21,6 +21,39 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 
 # In-memory activity database
 activities = {
+    #Add 2 more sports related activities, 2 more artistic
+    #activities, and 2 more intellectual activities.
+    "Basketball Team": {
+        "description": "Compete in basketball games and tournaments",
+        "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 15,
+        "participants": ["james@mergington.edu", "lucas@mergington.edu"]
+    },
+    "Soccer Club": {
+        "description": "Play soccer and participate in inter-school matches",
+        "schedule": "Tuesdays and Thursdays, 4:00 PM - 5:30 PM",
+        "max_participants": 15,
+        "participants": ["benjamin@mergington.edu", "alexander@mergington.edu"]
+    },
+    "Drama Club": {
+        "description": "Act in plays and perform on stage",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 12,
+        "participants": ["isabella@mergington.edu", "mia@mergington.edu"]
+    },
+    "Art Club": {
+        "description": "Create paintings, drawings, and sculptures",
+        "schedule": "Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 12,
+        "participants": ["elizabeth@mergington.edu", "chloe@mergington.edu"]
+    },
+    "Math Club": {
+        "description": "Solve math problems and participate in competitions",
+        "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 12,
+        "participants": ["ethan@mergington.edu",]
+    },
+    #End of new activities
     "Chess Club": {
         "description": "Learn strategies and compete in chess tournaments",
         "schedule": "Fridays, 3:30 PM - 5:00 PM",
